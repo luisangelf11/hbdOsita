@@ -1,0 +1,35 @@
+.box-comments{
+    margin: 3rem;
+    width: 300px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 25px 5px #ccc;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.message{
+    width: 95%;
+    display: flex;
+}
+
+.comment{
+    width: 80%;
+    font-size: 13px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.title-comments{
+    text-transform: uppercase;
+    padding: 5px;
+    color:rgb(189, 47, 47) ;
+}
+
+.back{
+    font-size: 25px;
+    color:rgb(189, 47, 47);
+    cursor: pointer;
+}

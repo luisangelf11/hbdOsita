@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Osita</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/comments.css">
+    <link rel="stylesheet" href="./css/promises.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container">
+        <!--POST CARD-->
+        <div data-aos="zoom-in" id="card" class="card-post">
+            <div class="card-top">
+                <div class="profile">
+                    <img class="image-profile" src="./images/Happy Birthday_Warner.jpg" alt="HBD">
+                    <h3 class="red-text">Happy Birthday Osita</h3>
+                </div>
+                <i class="fas fa-ellipsis-h settings"></i>
+            </div>
+            <div class="card-content">
+                <img class="post-image" src="./images/IMG_0200.JPG" alt="AMORCITO">
+            </div>
+            <div class="card-description">
+                <div class="buttons-container">
+                    <i id="like" class="btn far fa-heart"></i>
+                    <i class="btn far fa-comment"></i>
+                    <i class="btn far fa-share-square"></i>
+                    <span class="like">Le gusta a luis_angelfc11 y otras 46 personas más.</span>
+                </div>
+                <div class="text">
+                    <p>Muchas felicidades amor, espero que disfrutes mucho en tu día y
+                        que lo pases súper bien. Que Dios te continúe llenando de miles de
+                        bendiciones y que tu hermosa sonrisa resplandezca este día tan especial.
+                        <b class="red-text">Feliz cumpleaños ❤</b>
+                    </p>
+                    <span id="see" class="comments">Ver comentarios</span>
+                </div>
+            </div>
+        </div>
+        <!--COMMENTS-->
+        <div id="comments" class="box-comments hide">
+            <h3 class="title-comments">comentarios</h3>
+            <div class="message">
+                <img class="image-profile" src="./images/profile-1.JPG" alt="yo1">
+                <div class="comment">
+                    <h3>luis_angelfc11 (16)</h3>
+                    <p>¡Feliz cumpleaños! Con el poco tiempo que tengo conociendote descubrí la maravillosa persona que eres. Espero que disfrutes mucho en tu día, nunca dejes de sonreír🎉🎊</p>
+                </div>
+            </div>
+            <div class="message">
+                <img class="image-profile" src="./images/profile-2.JPG" alt="yo1">
+                <div class="comment">
+                    <h3>luis_angelfc11 (18)</h3>
+                    <p>¡Feliz cumpleaños Osita! Espero que la pases súper bien y que todos tus sueños y metas se cumplan. Eres una chica única, la cual agradezco de tener en mi vida. De mi parte trataré de hacer todo lo posible para que tengas un feliz día. HBD, te quiero🎈🎉</p>
+                </div>
+            </div>
+            <div class="message">
+                <img class="image-profile" src="./images/profile-3.jpeg" alt="yo1">
+                <div class="comment">
+                    <h3>luis_angelfc11 (Actual)</h3>
+                    <p>¡Feliz cumpleaños Amor! Espero que te guste este "Mini-Obsequio", donde quise traer 
+                        algunas versiones de mis "yo" de hace unos años, principalmente de cada año que tuvimos 
+                        un hermoso recuerdo. Espero que la pases increible en tu día y te deseo lo mejor en este mundo. PD: Recuerda darle like al post, te quiero🎈🎉
+                    </p>
+                </div>
+            </div>
+            <i id="back" class="back fa-solid fa-circle-xmark"></i>
+        </div>
+    </section>
+    <!--MODAL-->
+    <article id="modal" class="modal no-active">
+        <div class='modal-container'>
+            <i id="modal-close" class="modal-close fa-solid fa-circle-xmark"></i>
+            <h3>17 promesas</h3>
+            <p>Como te conocí hace 4 años hubieron algunos cumpleaños en los cuales no te di un obsequio porque no nos conociamos. Por eso aquí están las 17 promesas que haré durante este año y por lo que me resta de existencia hasta cumplirlas todas.</p>
+            <ul>
+                <li>Hacerte reir cuando estes triste</li>
+                <li>Apoyarte en todo lo que te propongas</li>
+                <li>Amarte de forma incondicional</li>
+                <li>Darte consejos cuando lo necesites</li>
+                <li>Abrazarte cuando tengas frío</li>
+                <li>Recordarte siempre la gran persona que eres</li>
+                <li>Tomarte de la mano durante nuestra historia</li>
+                <li>Comprarte más Stray Zoo</li>
+                <li>Darte mi mejor versión</li>
+                <li>Crear más recuerdos maravillosos</li>
+                <li>Nunca herir tu corazón</li>
+                <li>Aprender a bailar para que me consedas una pieza</li>
+                <li>Escribirte muchas canciones</li>
+                <li>Dejarme ganar en un videojuego XD (sabes que soy muy competitivo)</li>
+                <li>Ser uno de tus soportes cuando te sientas que no puedes más</li>
+                <li>Ser tus oidos cuando necesites que te escuchen</li>
+                <li>Haré cualquier cosa que necesites para verte sonreir</li>
+            </ul>
+        </div>
+    </article>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
+</html>
